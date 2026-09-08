@@ -30,8 +30,8 @@ Julien Lenormand
 
 ## L'ampleur du problème
 
-* TODO anecdotes  <!-- .element: class="fragment" -->
-* TODO stats  <!-- .element: class="fragment" -->
+* quelques anecdotes  <!-- .element: class="fragment" -->
+* pas besoin de stats  <!-- .element: class="fragment" -->
 
 ---
 
@@ -134,53 +134,66 @@ Notes:
 
 ## Et si on dézoome ?
 
-* garde-fou pour éviter de balancer de la daube aux QAs
-  * voire directement en prod
-* effet Hawtorne : savoir qu'il y aura une relecture, on s'applique +
-* Management de la connaissance et de la responsabilité
-  * co-ownership : transfert du code d'une personne au groupe
-* dérives
-  * Rubber-stamping : LGTM + Approve sans relire (*Goal displacement*)
-    * liability laundering / compliance theater
-  * Pointillisme
-* prise de recul
-  * question avant : bonne chose à faire ?
-  * question après : bonne chose faite ? chose bien faite ?
+* garde-fou pour éviter de balancer de la daube aux QAs  <!-- .element: class="fragment" -->
+  * voire directement en prod  <!-- .element: class="fragment" -->
+* effet Hawtorne : savoir qu'il y aura une relecture, on s'applique +  <!-- .element: class="fragment" -->
+* Management de la connaissance et de la responsabilité  <!-- .element: class="fragment" -->
+  * co-ownership : transfert du code d'une personne au groupe  <!-- .element: class="fragment" -->
+* dérives  <!-- .element: class="fragment" -->
+  * Rubber-stamping : LGTM + Approve sans relire (*Goal displacement*)  <!-- .element: class="fragment" -->
+    * liability laundering / compliance theater  <!-- .element: class="fragment" -->
+  * Pointillisme  <!-- .element: class="fragment" -->
+* prise de recul  <!-- .element: class="fragment" -->
+  * question avant : bonne chose à faire ?  <!-- .element: class="fragment" -->
+  * question après : bonne chose faite ? chose bien faite ?  <!-- .element: class="fragment" -->
 
 -v-
 
 * vision LEAN:
-  * la pull request est le livrable d'une des étapes de la production logicielle
-  * la review, puis la validation de la pull request, sont les suivantes
-  * chaque commentaire de review, et de surcroit changement à faire, est un défaut, et devrait cherché à être éliminé
-  * autrement dit :
-    > une PR avec + que 3 commentaires est un échec de process
-  * des problèmes à régler en amont :
-    * problèmes de design
-    * conventions non suivies
-    * absence de definition of ready/done
-    * CI et tooling insuffisants
-    * critères d'acceptance flous
-    * manque de confiance
+  * la pull request est le livrable d'une des étapes de la production logicielle  <!-- .element: class="fragment" -->
+  * la review, puis la validation de la pull request, sont les suivantes  <!-- .element: class="fragment" -->
+  * chaque commentaire de review, et de surcroit changement à faire, est un défaut, et devrait cherché à être éliminé  <!-- .element: class="fragment" -->
+  * autrement dit :  <!-- .element: class="fragment" -->
+    > une PR avec + que 3 commentaires est un échec de process  <!-- .element: class="fragment" -->
+  * des problèmes à régler en amont :  <!-- .element: class="fragment" -->
+    * problèmes de design  <!-- .element: class="fragment" -->
+    * conventions non suivies  <!-- .element: class="fragment" -->
+    * absence de definition of ready/done  <!-- .element: class="fragment" -->
+    * CI et tooling insuffisants  <!-- .element: class="fragment" -->
+    * critères d'acceptance flous  <!-- .element: class="fragment" -->
+    * manque de confiance  <!-- .element: class="fragment" -->
 
 -v-
 
 * améliorer la DX de la pull request :
-  * temps d'attente + délai de livraison (cf DORA)
-  * goulot d'étranglement (cf Kanban)
-  * context switch forcé
-  * outillage et process
-
-* à problème socio-technique, solution pas que technique
-  * "don't blame the player, blame the game"
-  * everybody's problem
+  * temps d'attente + délai de livraison (cf DORA)  <!-- .element: class="fragment" -->
+  * goulot d'étranglement (cf Kanban)  <!-- .element: class="fragment" -->
+  * context switch forcé  <!-- .element: class="fragment" -->
+  * outillage et process  <!-- .element: class="fragment" -->
+* à problème socio-technique, solution pas que technique  <!-- .element: class="fragment" -->
+  * "don't blame the player, blame the game"  <!-- .element: class="fragment" -->
+  * everybody's problem  <!-- .element: class="fragment" -->
 
 ---
+
+## Conclusion
+
+* Interrogez-vous sur vos pratiques de reviews
+* Comment faire mieux ?
 
 ## Sources
 
 * Mon court talk sur l'acte de code review lui-même : https://lenormju.github.io/talk-code-review/index.html
-* TODO
+* article par [Glyph - What Is Code Review For?](https://blog.glyph.im/2026/03/what-is-code-review-for.html) (à l'ère de l'IA)
+* commentaires sur [Hacker News - The primary purpose of code review is to find code that will be hard to maintain](https://news.ycombinator.com/item?id=48759870)
+* discussions avec Nolwenn Doucet, et Stéphane Trebel (alias Le Permacodeur)
+* Talk de [Régis Medina - Manager par les "pièces" - Alpes Craft 2024](https://www.youtube.com/watch?v=26sJO3D-evo)
+* podcast par [Yacine Hmito - Le LEAN à l'ère de l'IA - If This Then Dev #362](https://www.ifttd.io/episodes/le-lean-a-l-ere-de-l-ia)
+* article par [Matt Hall - Software I Love: Gerrit](https://mattjhall.co.uk/posts/software-i-love-gerrit.html)
+* post LinkedIn par [Colin Damon - quelques règles avant de review une PR](https://www.linkedin.com/posts/colin-damon_les-reviews-de-prmr-nont-pas-la-cote-mais-share-7411073731554381824-uVJv/)
+* article par [Ronni Elken Lindsgaard - Ship/Show/Ask, The Flowchart](https://rlindsgaard.github.io/software%20engineering/2026/05/25/shipshowask-the-flowchart.html) (the Pragmatic Programmer)
+* livre de `John Ousterhout - Philosophy of software design` (the intro about using its chapters for code review)
+* Talk de [Romain Tellier - Git, devenir le chouchou de son reviewer](https://mixitconf.org/2024/git-devenir-le-chouchou-de-son-reviewer)
 
 ---
 
