@@ -134,47 +134,46 @@ Notes:
 
 ## Et si on dézoome ?
 
+* garde-fou pour éviter de balancer de la daube aux QAs
+  * voire directement en prod
+* effet Hawtorne : savoir qu'il y aura une relecture, on s'applique +
+* Management de la connaissance et de la responsabilité
+  * co-ownership : transfert du code d'une personne au groupe
+* dérives
+  * Rubber-stamping : LGTM + Approve sans relire (*Goal displacement*)
+    * liability laundering / compliance theater
+  * Pointillisme
+* prise de recul
+  * question avant : bonne chose à faire ?
+  * question après : bonne chose faite ? chose bien faite ?
+
+-v-
+
 * vision LEAN:
   * la pull request est le livrable d'une des étapes de la production logicielle
   * la review, puis la validation de la pull request, sont les suivantes
   * chaque commentaire de review, et de surcroit changement à faire, est un défaut, et devrait cherché à être éliminé
-
-* autrement dit : "une PR avec + que 3 commentaires est pour moi un échec de process"
-
-* des problèmes à régler en amont :
-  * problèmes de design
-  * conventions non suivies
-  * absence de definition of done
-  * CI et tooling insuffisant
-  * critères acceptance flous
-  * manque de confiance
-
-* améliorer la DX de la pull request :
-  * waiting time + lead time (cf DORA)
-  * bottleneck (cf Kanban)
-  * forced context switch
-
-* Knowledge/Accountability management
-  * co-ownership : transfert du code d'une personne au groupe
-
-* effet Hawtorne : savoir qu'il y aura une relecture, on s'applique plus
-
-* garde-fou pour éviter de balancer de la daube aux QAs, voire directement en prod
-
-* question avant: bonne chose à faire ? question après : bonne chose faite ?
-
-* socio-technical problem / solution
-  * dont blame the player, blame the game
-  * author may be us the next time
-
-* dérives
-  * Rubber-stamping : LGTM + Approve sans relire (*Goal displacement
-    * liability laundering / compliance theater
-  * Pointillisme
+  * autrement dit :
+    > une PR avec + que 3 commentaires est un échec de process
+  * des problèmes à régler en amont :
+    * problèmes de design
+    * conventions non suivies
+    * absence de definition of ready/done
+    * CI et tooling insuffisants
+    * critères d'acceptance flous
+    * manque de confiance
 
 -v-
 
-TODO
+* améliorer la DX de la pull request :
+  * temps d'attente + délai de livraison (cf DORA)
+  * goulot d'étranglement (cf Kanban)
+  * context switch forcé
+  * outillage et process
+
+* à problème socio-technique, solution pas que technique
+  * "don't blame the player, blame the game"
+  * everybody's problem
 
 ---
 
