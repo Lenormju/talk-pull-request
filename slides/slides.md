@@ -58,6 +58,7 @@ Les 4 **C**
     * philosophies divergentes  <!-- .element: class="fragment" -->
   * auto-relecture  <!-- .element: class="fragment" -->
     * (aidé par l'IA)  <!-- .element: class="fragment" -->
+    * premier feedback  <!-- .element: class="fragment" -->
   * "make the change easy, then make the easy change"  <!-- .element: class="fragment" -->
   * “Programs must be written for people to read, and only incidentally for machines to execute.” - SICP  <!-- .element: class="fragment" -->
 
@@ -91,7 +92,7 @@ Une relecture n'est pas juste une "lecture".
 * prendre du recul sur la manière dont la solution répond au besoin  <!-- .element: class="fragment" -->
 * voir ce qu'il manque, pas juste ce qui est présent  <!-- .element: class="fragment" -->
   * évaluer tous les angles (ISO/IEC 25002:2024)  <!-- .element: class="fragment" -->
-  * maintenabilité  <!-- .element: class="fragment" -->
+  * **maintenabilité**  <!-- .element: class="fragment" -->
   * voir ce qu'il y a en trop (merci les IAs)  <!-- .element: class="fragment" -->
 * discuter collectivement  <!-- .element: class="fragment" -->
   * conventions  <!-- .element: class="fragment" -->
@@ -110,19 +111,20 @@ Notes:
 -v-
 
 * apprendre le projet
-  * no hierarchy  <!-- .element: class="fragment" -->
   * tout le monde peut apprendre  <!-- .element: class="fragment" -->
+  * pas de hierarchy  <!-- .element: class="fragment" -->
   * "ask dumb questions"  <!-- .element: class="fragment" -->
   * rester informé des évolutions  <!-- .element: class="fragment" -->
 * déléguer c'est accepter que ce soit fait différemment  <!-- .element: class="fragment" -->
 * conventional comment  <!-- .element: class="fragment" -->
+  * > suggestion(non-blocking): j'aurais mis "DTO" dans le nom, afin qu'on le distingue du modèle
   * actionnable feedback  <!-- .element: class="fragment" -->
   * clarté de l'attendu  <!-- .element: class="fragment" -->
 
 -v-
 
 * choisir ses batailles
-  * disagree and commit  <!-- .element: class="fragment" -->
+  * "disagree and commit"  <!-- .element: class="fragment" -->
   * "je peux vivre avec"  <!-- .element: class="fragment" -->
   * "good enough"  <!-- .element: class="fragment" -->
   * LGTM si c'est pertinent  <!-- .element: class="fragment" -->
@@ -154,9 +156,9 @@ Notes:
   * la review, puis la validation de la pull request, sont les suivantes  <!-- .element: class="fragment" -->
   * chaque commentaire de review, et de surcroit changement à faire, est un défaut, et devrait cherché à être éliminé  <!-- .element: class="fragment" -->
   * autrement dit :  <!-- .element: class="fragment" -->
-    > une PR avec + que 3 commentaires est un échec de process  <!-- .element: class="fragment" -->
+    > une PR avec + que 3 commentaires est un échec du process  <!-- .element: class="fragment" -->
   * des problèmes à régler en amont :  <!-- .element: class="fragment" -->
-    * problèmes de design  <!-- .element: class="fragment" -->
+    * problèmes de (co-)design  <!-- .element: class="fragment" -->
     * conventions non suivies  <!-- .element: class="fragment" -->
     * absence de definition of ready/done  <!-- .element: class="fragment" -->
     * CI et tooling insuffisants  <!-- .element: class="fragment" -->
@@ -180,6 +182,8 @@ Notes:
 
 * Interrogez-vous sur vos pratiques de reviews
 * Comment faire mieux ?
+
+---
 
 ## Sources
 
